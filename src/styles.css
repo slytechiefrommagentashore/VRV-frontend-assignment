@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+    background-color: #afc2d5;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #112e42;
+    color: #ededed;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+header nav a {
+    color: #ddd;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+header nav a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+header button {
+    font-size: 14px;
+}
+
+/* Dashboard Styles */
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Table Styles */
+table {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table thead th {
+    background-color: #61dafb;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+table tbody td {
+    padding: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Buttons */
+button {
+    font-size: 14px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Modals */
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    background-color: #343a40;
+    color: white;
+}
+
+.modal-footer button {
+    font-size: 14px;
+}

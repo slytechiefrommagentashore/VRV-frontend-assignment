@@ -1,0 +1,19 @@
+//mockup api 
+
+{
+    "users": [
+        { "id": 1, "name": "John Smith", "role": "Admin", "status": "Active" },
+        { "id": 3, "name": "Sarah Connor", "role": "Viewer", "status": "Active" },
+        { "id": 2, "name": "Mark Lee", "role": "Editor", "status": "Inactive" }
+    ],
+    "roles": [
+        { "id": 1, "name": "Admin", "permissions": [1, 2, 3] },
+        { "id": 2, "name": "Editor", "permissions": [1, 2] },
+        { "id": 3, "name": "Viewer", "permissions": [1] }
+    ],
+    "permissions": [
+        { "id": 1, "name": "Read" },
+        { "id": 2, "name": "Write" },
+        { "id": 3, "name": "Delete" }
+    ]
+}
